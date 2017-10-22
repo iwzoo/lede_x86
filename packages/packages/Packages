@@ -1,0 +1,841 @@
+Package: adblock
+Version: 2.6.2-1
+Depends: libc
+License: GPL-3.0+
+Section: net
+Architecture: all
+Installed-Size: 6960
+Filename: adblock_2.6.2-1_all.ipk
+Size: 7908
+SHA256sum: 1d6b0bdeed5d755a6881e2ef26d4b55c43631975083e45105b7f0f4cdc2a8f54
+Description:  Powerful adblock script to block ad/abuse domains via dnsmasq or unbound dns backend.
+ The script supports many domain blacklist sites plus manual black- and whitelist overrides.
+ Please see https://github.com/openwrt/packages/blob/master/net/adblock/files/README.md for further information.
+ 
+
+Package: aria2
+Version: 1.30.0-1
+Depends: libc, zlib, libstdcpp, libopenssl
+License: GPLv2
+Section: net
+Architecture: x86_64
+Installed-Size: 886917
+Filename: aria2_1.30.0-1_x86_64.ipk
+Size: 878544
+SHA256sum: 9765e2ed426822a7430d89167f74308644d5d9f7913bdca503f3fbd9b6e92d1b
+Description:  aria2 is a lightweight multi-protocol & multi-source command-line download
+ utility
+
+Package: autossh
+Version: 1.4e-1
+Depends: libc
+License: 0BSD
+Section: net
+Architecture: x86_64
+Installed-Size: 10454
+Filename: autossh_1.4e-1_x86_64.ipk
+Size: 11133
+SHA256sum: b6db222ba0257f4e81faa05698549a0cb2dd2bbac9cb2911ebdaa649ce094459
+Description:  Autossh client
+
+Package: bash
+Version: 4.3.42-1
+Depends: libc, libncurses
+License: GPL-3.0+
+Section: utils
+Architecture: x86_64
+Installed-Size: 380163
+Filename: bash_4.3.42-1_x86_64.ipk
+Size: 380319
+SHA256sum: 77fa600e5c00e0ca21abafbb0d4acaed0a039f30922c741d1a2b454cd92c93af
+Description:  Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file. Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+
+Package: bind-dig
+Version: 9.10.4-P5-1
+Depends: libc, bind-libs
+License: BSD-3-Clause
+Section: net
+Architecture: x86_64
+Installed-Size: 39506
+Filename: bind-dig_9.10.4-P5-1_x86_64.ipk
+Size: 40319
+SHA256sum: 93177dd8105fdb44c87e7a9fc3d9d3e20feabfa8f603b923bdc131b113842c4f
+Description:  bind DNS excavation tool
+
+Package: bind-libs
+Version: 9.10.4-P5-1
+Depends: libc, libopenssl
+License: BSD-3-Clause
+Section: libs
+Architecture: x86_64
+Installed-Size: 967622
+Filename: bind-libs_9.10.4-P5-1_x86_64.ipk
+Size: 965769
+SHA256sum: 5e130680bdf30c3f0f8e0d6b4f647e2b5c7d884a2cb7d24b4721e64f5eff120d
+Description:  bind shared libraries
+
+Package: collectd-mod-cpu
+Version: 5.5.3-4
+Depends: libc, collectd
+Section: utils
+Architecture: x86_64
+Installed-Size: 3651
+Filename: collectd-mod-cpu_5.5.3-4_x86_64.ipk
+Size: 4370
+SHA256sum: ca3c9f64b375e62a9c6787754a3b7eda55d8a3f5f5d98b4ecf895f2dafa2bc72
+Description:  CPU input plugin
+
+Package: collectd-mod-interface
+Version: 5.5.3-4
+Depends: libc, collectd
+Section: utils
+Architecture: x86_64
+Installed-Size: 2215
+Filename: collectd-mod-interface_5.5.3-4_x86_64.ipk
+Size: 2940
+SHA256sum: bf78419d6d25e445eb7e2d9eaf50cac4ca92979e2eefbf632361485fb85b6cff
+Description:  network interfaces input plugin
+
+Package: collectd-mod-iwinfo
+Version: 5.5.3-4
+Depends: libc, collectd, libiwinfo
+Section: utils
+Architecture: x86_64
+Installed-Size: 2499
+Filename: collectd-mod-iwinfo_5.5.3-4_x86_64.ipk
+Size: 3238
+SHA256sum: c39c81535d992d3c257e611dbb1d30972b93efff7c6d38c7494063d9db638e51
+Description:  libiwinfo wireless statistics plugin
+
+Package: collectd-mod-load
+Version: 5.5.3-4
+Depends: libc, collectd
+Section: utils
+Architecture: x86_64
+Installed-Size: 1781
+Filename: collectd-mod-load_5.5.3-4_x86_64.ipk
+Size: 2543
+SHA256sum: 07ba4cb943c3e85558df2f847923db1862482f49ed316ffc343d1e5df4a3fbce
+Description:  system load input plugin
+
+Package: collectd-mod-memory
+Version: 5.5.3-4
+Depends: libc, collectd
+Section: utils
+Architecture: x86_64
+Installed-Size: 2580
+Filename: collectd-mod-memory_5.5.3-4_x86_64.ipk
+Size: 3307
+SHA256sum: 0d43b420ee1ce41c6fdbf145ec71bb0ba158eb0d03614d5df0dc642c994ee09a
+Description:  physical memory usage input plugin
+
+Package: collectd-mod-network
+Version: 5.5.3-4
+Depends: libc, collectd
+Section: utils
+Architecture: x86_64
+Installed-Size: 14300
+Filename: collectd-mod-network_5.5.3-4_x86_64.ipk
+Size: 15035
+SHA256sum: e867dac3ed8b7764944fc4f108ebe1947f61ddf1e6c4472eca9c945c44df776c
+Description:  network input/output plugin
+
+Package: collectd-mod-rrdtool
+Version: 5.5.3-4
+Depends: libc, collectd, librrd1
+Section: utils
+Architecture: x86_64
+Installed-Size: 10646
+Filename: collectd-mod-rrdtool_5.5.3-4_x86_64.ipk
+Size: 11401
+SHA256sum: bb63f3f6ea4eaeb44a44dc415ad86c058ecadabd3ac52283d097fb00430d58a0
+Description:  RRDtool output plugin
+
+Package: collectd
+Version: 5.5.3-4
+Depends: libc, libpthread, zlib, libltdl, libip4tc
+Section: utils
+Architecture: x86_64
+Installed-Size: 84393
+Filename: collectd_5.5.3-4_x86_64.ipk
+Size: 85222
+SHA256sum: 403941130a50d4862bd4c3db321ee51d4380ec2b10ffd40e365d389ebc6ba30f
+Description:  collectd is a small daemon which collects system information periodically
+ and provides mechanismns to store the values in a variety of ways.
+
+Package: ddns-scripts
+Version: 2.7.6-13
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 14912
+Filename: ddns-scripts_2.7.6-13_all.ipk
+Size: 16015
+SHA256sum: b955f6c14dd65fc2b6cf5db8be33442b13367574f012f97b08ecd92f3cab25dd
+Description:  Dynamic DNS Client scripts (with IPv6 support) - Info: http://wiki.openwrt.org/doc/howto/ddns.client
+
+Package: ddns-scripts_no-ip_com
+Version: 2.7.6-13
+Depends: ddns-scripts
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 2437
+Filename: ddns-scripts_no-ip_com_2.7.6-13_all.ipk
+Size: 3527
+SHA256sum: 302bf16aded75e118fd48ac8b22a4a2f395a74f2d72a7186120f9e22d2738cd8
+Description:  Dynamic DNS Client scripts extension for No-IP.com
+
+Package: dnscrypt-proxy-resolvers
+Version: 1.9.4+git-20161129-f17bace-1
+Depends: libc
+License: ISC
+Section: net
+Architecture: x86_64
+Installed-Size: 6095
+Filename: dnscrypt-proxy-resolvers_1.9.4+git-20161129-f17bace-1_x86_64.ipk
+Size: 6850
+SHA256sum: c4a3c3eadce3239d4f6afac0ca903f02cdef2a4a66ac48db0439b2e6495d741f
+Description:  Package with current list of dnscrypt-proxy resolvers.
+
+Package: dnscrypt-proxy
+Version: 1.9.4-1
+Depends: libc, libsodium, dnscrypt-proxy-resolvers
+License: ISC
+Section: net
+Architecture: x86_64
+Installed-Size: 71082
+Filename: dnscrypt-proxy_1.9.4-1_x86_64.ipk
+Size: 71912
+SHA256sum: c4b0b6b9198509bc13c51d1b83ae27e226383b03a9c97855bd9fb9954d1def5a
+Description:  dnscrypt-proxy provides local service which can be used directly as your
+ local resolver or as a DNS forwarder, encrypting and authenticating requests
+ using the DNSCrypt protocol and passing them to an upstream server.
+ The DNSCrypt protocol uses high-speed high-security elliptic-curve cryptography
+ and is very similar to DNSCurve, but focuses on securing communications between
+ a client and its first-level resolver.
+
+Package: etherwake
+Version: 1.09-4
+Depends: libc
+Section: net
+Architecture: x86_64
+Installed-Size: 5170
+Filename: etherwake_1.09-4_x86_64.ipk
+Size: 6078
+SHA256sum: 673f5cadeb2f5b6dcc9aaad98491d0b745631b299976f73a85caf122ab30713c
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
+Package: libcares
+Version: 1.11.0-1
+Depends: libc
+License: MIT
+Section: libs
+Architecture: x86_64
+Installed-Size: 30601
+Filename: libcares_1.11.0-1_x86_64.ipk
+Size: 31399
+SHA256sum: 65607bfc9b80cd29111c90e34a53622ee465f7e204a71c4eb5bf850eecd81a64
+Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
+ 
+ C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
+ Netware, Android and many more operating systems.
+ 
+
+Package: libdb47
+Version: 4.7.25.4.NC-5
+Depends: libc, libxml2
+Provides: libdb47-full
+License: Sleepycat
+Section: libs
+Architecture: x86_64
+Installed-Size: 525151
+Filename: libdb47_4.7.25.4.NC-5_x86_64.ipk
+Size: 524298
+SHA256sum: 084deca90c44f8b984873be7a28138104d582ec820588f36df88186e4c53a1e2
+Description:  Berkeley DB library (4.7).
+
+Package: libev
+Version: 4.22-1
+Depends: libc
+License: BSD-2-Clause
+Section: libs
+Architecture: x86_64
+Installed-Size: 20491
+Filename: libev_4.22-1_x86_64.ipk
+Size: 21281
+SHA256sum: 9a5959559f91edeaa363cbe3c3575ee5e3bd6b306006eab57c20eafbaf12dc5e
+Description:  A full-featured and high-performance event loop that is loosely modelled after
+ libevent, but without its limitations and bugs.
+
+Package: libexpat
+Version: 2.2.0-1
+Depends: libc
+License: MIT
+Section: libs
+Architecture: x86_64
+Installed-Size: 52693
+Filename: libexpat_2.2.0-1_x86_64.ipk
+Size: 53383
+SHA256sum: e84d7b81e2fa905d399bc5583ab055897b8678fbaeb329fa89fe808fce9dd6e7
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libffi
+Version: 3.2.1-2
+Depends: libc
+License: MIT
+Section: libs
+Architecture: x86_64
+Installed-Size: 6320
+Filename: libffi_3.2.1-2_x86_64.ipk
+Size: 7385
+SHA256sum: 7ea57c78830d5111fe09af0fd0ca8146831fc73b8e71e7ea52131f69e2fad392
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libgdbm
+Version: 1.11-1
+Depends: libc
+License: GPL-3.0+
+Section: libs
+Architecture: x86_64
+Installed-Size: 16359
+Filename: libgdbm_1.11-1_x86_64.ipk
+Size: 17135
+SHA256sum: e9f6dc01a10ff84033865fbbacc33c21704b6fc8d74fab9ae8aed3216dec81b1
+Description:  GNU database manager library
+ GNU dbm is a set of database routines that use extendible hashing and
+ works similar to the standard UNIX dbm routines.
+
+Package: libpam
+Version: 1.2.0-2
+Depends: libc
+Section: libs
+Architecture: x86_64
+Installed-Size: 173369
+Filename: libpam_1.2.0-2_x86_64.ipk
+Size: 173707
+SHA256sum: a295dd5d3d26460b4e56095f154a27b6af7672d6d22a88dde9c893d2665939c0
+Description:  The Linux-PAM Pluggable Authentication Modules.
+
+Package: libpcre
+Version: 8.41-2
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+Architecture: x86_64
+Installed-Size: 81160
+Filename: libpcre_8.41-2_x86_64.ipk
+Size: 81989
+SHA256sum: c3762c2726c3a4852afe74a979d98a22aed62c7c2acf62ed795f60e3cbd23aca
+Description:  A Perl Compatible Regular Expression library
+
+Package: librrd1
+Version: 1.0.50-2
+Depends: libc, zlib
+Section: libs
+Architecture: x86_64
+Installed-Size: 136369
+Filename: librrd1_1.0.50-2_x86_64.ipk
+Size: 137126
+SHA256sum: afcb42fc7b3223598fd49d83a2b2bdc0ddd690c2bf7b39f543f54ca12f273037
+Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
+ display time-series data (i.e. network bandwidth, machine-room temperature,
+ server load average). It stores the data in a very compact way that will
+ not expand over time, and it presents useful graphs by processing the data
+ to enforce a certain data density. It can be used either via simple wrapper
+ scripts (from shell or Perl) or via frontends that poll network devices and
+ put friendly user interface on it.
+ 
+ This is version 1.0.x with cgilib-0.4, gd1.3 and libpng-1.0.9 linked into
+ librrd.so. The library is much smaller compared to the 1.2.x version with
+ separate dynamic linked libraries.
+ This package contains a shared library, used by other programs.
+
+Package: libsodium
+Version: 1.0.11-2
+Depends: libc
+License: ISC
+Section: libs
+Architecture: x86_64
+Installed-Size: 127966
+Filename: libsodium_1.0.11-2_x86_64.ipk
+Size: 129155
+SHA256sum: 6dcb70404a8436325c35a9874dab5e34fda91df32f2cd09e8f3540aa7aca511b
+Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
+ NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
+ Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
+ The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
+ The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
+ And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
+Package: libsqlite3
+Version: 3160000-1
+Depends: libc, libpthread
+License: PUBLICDOMAIN
+Section: libs
+Architecture: x86_64
+Installed-Size: 360785
+Filename: libsqlite3_3160000-1_x86_64.ipk
+Size: 361420
+SHA256sum: 58c84e410e582ddbb2610058f18bb76c9dcd0a06fedd4186cf8177ebf15b174f
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libxml2
+Version: 2.9.4-1
+Depends: libc, libpthread, zlib
+License: MIT
+Section: libs
+Architecture: x86_64
+Installed-Size: 501000
+Filename: libxml2_2.9.4-1_x86_64.ipk
+Size: 500074
+SHA256sum: 16fd13a4888e9545d5f35fa325ae2eb12c4e53a6ff236a9facf6a1beaaf98e99
+Description:  A library for manipulating XML and HTML resources.
+
+Package: lxc
+Version: 1.1.5-3
+Depends: libc
+License: LGPL-2.1+ BSD-2-Clause GPL-2.0
+Section: utils
+Architecture: x86_64
+Installed-Size: 104
+Filename: lxc_1.1.5-3_x86_64.ipk
+Size: 896
+SHA256sum: a43c44f43e374d2be290179ba9a8d9e4afc1f2b83432e930df6a36d80142efb9
+Description:  LXC is the userspace control package for Linux Containers, a lightweight
+ virtual system mechanism sometimes described as "chroot on steroids".
+
+Package: nano
+Version: 2.7.5-1
+Depends: libc, libncurses
+License: GPL-3.0+
+Section: utils
+Architecture: x86_64
+Installed-Size: 34573
+Filename: nano_2.7.5-1_x86_64.ipk
+Size: 35254
+SHA256sum: d510df2480d4fef7beb571276bc4a4ae428371bc28b74e592235cc4587b46bd7
+Description:  Nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone
+ of the Pico text editor.
+
+Package: openssh-client-utils
+Version: 7.4p1-1
+Depends: libc, libopenssl, zlib, openssh-client, openssh-keygen
+License: BSD ISC
+Section: net
+Architecture: x86_64
+Installed-Size: 630298
+Filename: openssh-client-utils_7.4p1-1_x86_64.ipk
+Size: 628844
+SHA256sum: b97c57e5a252099734e53477b145b264efbcefc366fa8ded0c0d0f57da139366
+Description:  OpenSSH client utilities.
+
+Package: openssh-client
+Version: 7.4p1-1
+Depends: libc, libopenssl, zlib
+License: BSD ISC
+Section: net
+Architecture: x86_64
+Installed-Size: 333679
+Filename: openssh-client_7.4p1-1_x86_64.ipk
+Size: 333848
+SHA256sum: 50d2fd347ef5816f9dbad99743a92e103fb47ea282c7654ef6cc6be99c06fa68
+Description:  OpenSSH client.
+
+Package: openssh-keygen
+Version: 7.4p1-1
+Depends: libc, libopenssl, zlib
+License: BSD ISC
+Section: net
+Architecture: x86_64
+Installed-Size: 164439
+Filename: openssh-keygen_7.4p1-1_x86_64.ipk
+Size: 164611
+SHA256sum: 26361077a8f24ba33a4bb29497180c9cf2bac8483b5c6116fb77b0e858e1a275
+Description:  OpenSSH keygen.
+
+Package: openssh-moduli
+Version: 7.4p1-1
+Depends: libc, libopenssl, zlib, openssh-keygen
+License: BSD ISC
+Section: net
+Architecture: x86_64
+Installed-Size: 17825
+Filename: openssh-moduli_7.4p1-1_x86_64.ipk
+Size: 16572
+SHA256sum: 16867a5407f7aa445ce7150768e56f3eb49ab0ce7f6e44169dee7b42615efd14
+Description:  OpenSSH server moduli file.
+
+Package: openssh-server-pam
+Version: 7.4p1-1
+Depends: libc, libopenssl, zlib, libpthread, openssh-keygen, libpam
+License: BSD ISC
+Section: net
+Architecture: x86_64
+Installed-Size: 316357
+Filename: openssh-server-pam_7.4p1-1_x86_64.ipk
+Size: 316517
+SHA256sum: a055947173f51bdbe6aa3cfd6139a28f005eaa2c6a0ad161c0f0a10258d70f94
+Description:  OpenSSH server (with PAM support).
+
+Package: openssh-server
+Version: 7.4p1-1
+Depends: libc, libopenssl, zlib, openssh-keygen
+License: BSD ISC
+Section: net
+Architecture: x86_64
+Installed-Size: 305936
+Filename: openssh-server_7.4p1-1_x86_64.ipk
+Size: 306044
+SHA256sum: 58b79a96f24a4e0885516c5025fd9b0a362068fd46a4e7e7cb090f5d6e497b54
+Description:  OpenSSH server.
+
+Package: python-base
+Version: 2.7.13-4
+Depends: libc, libpthread, zlib
+License: PSF
+Section: lang
+Architecture: x86_64
+Installed-Size: 736369
+Filename: python-base_2.7.13-4_x86_64.ipk
+Size: 733527
+SHA256sum: d421cadcccf45643ad599a559058b9dc2172437d680b62f7fb2d309678671bb8
+Description:  This package contains only the interpreter and the bare minimum
+ for the interpreter to start.
+
+Package: python-codecs
+Version: 2.7.13-4
+Depends: libc, python-light
+License: PSF
+Section: lang
+Architecture: x86_64
+Installed-Size: 819253
+Filename: python-codecs_2.7.13-4_x86_64.ipk
+Size: 797437
+SHA256sum: 4c6ad8f02a7cc8a5c95e986c87a48bacef4386fdc27350eca3abaf08defd1003
+Description:  Python 2.7 codecs + unicode support
+
+Package: python-compiler
+Version: 2.7.13-4
+Depends: libc, python-light
+License: PSF
+Section: lang
+Architecture: x86_64
+Installed-Size: 37664
+Filename: python-compiler_2.7.13-4_x86_64.ipk
+Size: 38547
+SHA256sum: f07686c84f295c2fe09f0219d58c0ba74bc3bb842fe824692b664678b5c1441a
+Description:  Python 2.7 compiler module
+
+Package: python-ctypes
+Version: 2.7.13-4
+Depends: libc, python-light
+License: PSF
+Section: lang
+Architecture: x86_64
+Installed-Size: 105133
+Filename: python-ctypes_2.7.13-4_x86_64.ipk
+Size: 106023
+SHA256sum: ba7ad49be2700a14b3a0c2fcc996bdb5be2288c53475870b97d52d28a4f08cc4
+Description:  Python 2.7 ctypes module
+
+Package: python-db
+Version: 2.7.13-4
+Depends: libc, python-light, libdb47
+License: PSF
+Section: lang
+Architecture: x86_64
+Installed-Size: 113737
+Filename: python-db_2.7.13-4_x86_64.ipk
+Size: 114451
+SHA256sum: 4ad2b1b3b5c3f51a1055dd932acc07b05ac08167914e1b2b33442b73d4b65c3b
+Description:  Python 2.7 db module
+
+Package: python-decimal
+Version: 2.7.13-4
+Depends: libc, python-light
+License: PSF
+Section: lang
+Architecture: x86_64
+Installed-Size: 47340
+Filename: python-decimal_2.7.13-4_x86_64.ipk
+Size: 48216
+SHA256sum: ab0d2337bb62da671953e700956d44b8250cc440008f94f4f4f6b572ccbda2e1
+Description:  Python 2.7 decimal module
+
+Package: python-distutils
+Version: 2.7.13-4
+Depends: libc, python-light
+License: PSF
+Section: lang
+Architecture: x86_64
+Installed-Size: 209399
+Filename: python-distutils_2.7.13-4_x86_64.ipk
+Size: 210323
+SHA256sum: e6b5e3785f99f598dc3540a817845970b4e75cf27c207df3841e161fb4715eae
+Description:  Python 2.7 distutils
+
+Package: python-email
+Version: 2.7.13-4
+Depends: libc, python-light
+License: PSF
+Section: lang
+Architecture: x86_64
+Installed-Size: 142501
+Filename: python-email_2.7.13-4_x86_64.ipk
+Size: 143372
+SHA256sum: 93dbab1eb174813e35352d5b00b6859f2850ec30e1bced6f6f0c60968b3bb238
+Description:  Python 2.7 email module
+
+Package: python-gdbm
+Version: 2.7.13-4
+Depends: libc, python-light, libgdbm
+License: PSF
+Section: lang
+Architecture: x86_64
+Installed-Size: 5625
+Filename: python-gdbm_2.7.13-4_x86_64.ipk
+Size: 6421
+SHA256sum: 99fa35883118068c03d1bd818ec9621ac940738ecfb58ae0940621d853908773
+Description:  Python 2.7 gdbm module
+
+Package: python-light
+Version: 2.7.13-4
+Depends: libc, python-base, libffi, libbz2
+License: PSF
+Section: lang
+Architecture: x86_64
+Installed-Size: 1270721
+Filename: python-light_2.7.13-4_x86_64.ipk
+Size: 1270510
+SHA256sum: 7457bef4db56be76c38ee8b39cb9ef8ccd0d08a1f42ffb81acb32532d6c22c1b
+Description:  This package is essentially the python-base package plus
+ a few of the rarely used (and big) libraries stripped out
+ into separate packages.
+
+Package: python-logging
+Version: 2.7.13-4
+Depends: libc, python-light
+License: PSF
+Section: lang
+Architecture: x86_64
+Installed-Size: 37243
+Filename: python-logging_2.7.13-4_x86_64.ipk
+Size: 38141
+SHA256sum: 1feaf7c987c8e2db708d823df9d8a54a49cc9993df5de047574109b7ae8e26fc
+Description:  Python 2.7 logging module
+
+Package: python-multiprocessing
+Version: 2.7.13-4
+Depends: libc, python-light
+License: PSF
+Section: lang
+Architecture: x86_64
+Installed-Size: 46983
+Filename: python-multiprocessing_2.7.13-4_x86_64.ipk
+Size: 47819
+SHA256sum: c020a3e1e9dadac0947728a7968ee2891183eb0d211b15eeb2294a4fe7e53c6a
+Description:  Python 2.7 multiprocessing
+
+Package: python-ncurses
+Version: 2.7.13-4
+Depends: libc, python-light, libncurses
+License: PSF
+Section: lang
+Architecture: x86_64
+Installed-Size: 31277
+Filename: python-ncurses_2.7.13-4_x86_64.ipk
+Size: 31999
+SHA256sum: e9ce192e46904ceeab4654b2707133429382311cab4f5597145a2288b71be511
+Description:  Python 2.7 ncurses module
+
+Package: python-openssl
+Version: 2.7.13-4
+Depends: libc, python-light, libopenssl
+License: PSF
+Section: lang
+Architecture: x86_64
+Installed-Size: 36679
+Filename: python-openssl_2.7.13-4_x86_64.ipk
+Size: 37490
+SHA256sum: 8f76e654a7c9dcae1eea29725840fe9b339b9a9d2233d56213c5e9feb4f916a0
+Description:  Python 2.7 SSL module
+
+Package: python-pydoc
+Version: 2.7.13-4
+Depends: libc, python-light
+License: PSF
+Section: lang
+Architecture: x86_64
+Installed-Size: 169733
+Filename: python-pydoc_2.7.13-4_x86_64.ipk
+Size: 170493
+SHA256sum: cbbd43ed312b0ddc46194703b013d868352295894511cf846c360245ea1f5072
+Description:  Python 2.7 pydoc module
+
+Package: python-sqlite3
+Version: 2.7.13-4
+Depends: libc, python-light, libsqlite3
+License: PSF
+Section: lang
+Architecture: x86_64
+Installed-Size: 44628
+Filename: python-sqlite3_2.7.13-4_x86_64.ipk
+Size: 45489
+SHA256sum: 9582614f59a6590ed031ad3347b8b82a55fdb57afad67988e45b9dbb16f9e182
+Description:  Python 2.7 sqlite3 module
+
+Package: python-unittest
+Version: 2.7.13-4
+Depends: libc, python-light
+License: PSF
+Section: lang
+Architecture: x86_64
+Installed-Size: 54075
+Filename: python-unittest_2.7.13-4_x86_64.ipk
+Size: 54942
+SHA256sum: 3a0e6721ffb65be2db0c41c19396bcf35755bdd08db5f574445975f455c6b321
+Description:  Python 2.7 unittest module
+
+Package: python-xml
+Version: 2.7.13-4
+Depends: libc, python-light, libexpat
+License: PSF
+Section: lang
+Architecture: x86_64
+Installed-Size: 164090
+Filename: python-xml_2.7.13-4_x86_64.ipk
+Size: 164961
+SHA256sum: f5165c150e846cbc9a0a6da7a740e98858069b650fdb01957751586dbe6b99c5
+Description:  Python 2.7 xml libs
+
+Package: python
+Version: 2.7.13-4
+Depends: libc, python-light, python-ctypes, python-pydoc, python-multiprocessing, python-logging, python-codecs, python-sqlite3, python-xml, python-gdbm, python-email, python-distutils, python-openssl, python-compiler, python-db, python-decimal, python-unittest, python-ncurses
+License: PSF
+Section: lang
+Architecture: x86_64
+Installed-Size: 104
+Filename: python_2.7.13-4_x86_64.ipk
+Size: 1023
+SHA256sum: 48ac2ef8ec7652340c5479b4e5c0a73adf7755c3aba1f8b934c95c4d2e06be1c
+Description:  This package contains the (almost) full Python install.
+ It's python-light + all other packages.
+
+Package: rrdtool1
+Version: 1.0.50-2
+Depends: libc, librrd1
+Section: utils
+Architecture: x86_64
+Installed-Size: 10400
+Filename: rrdtool1_1.0.50-2_x86_64.ipk
+Size: 11494
+SHA256sum: bfd1dc3a74b3385cb01f512900db0e2a3ad34f23a6789427053ac5d10a4e2f9e
+Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
+ display time-series data (i.e. network bandwidth, machine-room temperature,
+ server load average). It stores the data in a very compact way that will
+ not expand over time, and it presents useful graphs by processing the data
+ to enforce a certain data density. It can be used either via simple wrapper
+ scripts (from shell or Perl) or via frontends that poll network devices and
+ put friendly user interface on it.
+ 
+ This is version 1.0.x with cgilib-0.4, gd1.3 and libpng-1.0.9 linked into
+ librrd.so. The library is much smaller compared to the 1.2.x version with
+ separate dynamic linked libraries.
+ This package contains command line tools used to manage RRDs.
+
+Package: shadowsocks-client
+Version: 0.6-b59d754f838213d60b908aed0b7d4d5a81f273e2
+Depends: libc, libopenssl
+License: MIT
+Section: net
+Architecture: x86_64
+Installed-Size: 13634
+Filename: shadowsocks-client_0.6-b59d754f838213d60b908aed0b7d4d5a81f273e2_x86_64.ipk
+Size: 14364
+SHA256sum: b1962cdcd96f313de168f6878577740005d7191120ece98ec631c3df90f91424
+Description:  shadowsocks client for router
+
+Package: shadowsocks-libev-mbedtls
+Version: 2.6.1-1
+Depends: libc, libmbedtls, libpthread, ipset, ip, iptables-mod-tproxy, libpcre, zlib
+License: GPLv2
+Section: net
+Architecture: x86_64
+Installed-Size: 199488
+Filename: shadowsocks-libev-mbedtls_2.6.1-1_x86_64.ipk
+Size: 200100
+SHA256sum: e3aa6db539d2f017e8e723338edcd9cc608059673835be7891ee93413db27d6b
+Description:  Shadowsocks-libev is a lightweight secured socks5 proxy for embedded devices and low end boxes.
+
+Package: shadowsocks-libev
+Version: 2.6.1-1
+Depends: libc, libopenssl, libpthread, ipset, ip, iptables-mod-tproxy, libpcre, zlib
+License: GPLv2
+Section: net
+Architecture: x86_64
+Installed-Size: 199489
+Filename: shadowsocks-libev_2.6.1-1_x86_64.ipk
+Size: 200133
+SHA256sum: d861b553b7e4f5b8d5f50f6dcafcbdba5eb26ced3cb4d60b37d0d4b88fab2781
+Description:  Shadowsocks-libev is a lightweight secured socks5 proxy for embedded devices and low end boxes.
+
+Package: tinyproxy
+Version: 1.8.3-2
+Depends: libc
+Section: net
+Architecture: x86_64
+Installed-Size: 32858
+Filename: tinyproxy_1.8.3-2_x86_64.ipk
+Size: 33556
+SHA256sum: f5bffe7f97ca3937e076d52d1059bb857df99b41fa9cb27cd47c473717c95663
+Description:  Tinyproxy is a lightweight HTTP and HTTPS proxy
+
+Package: vim-full
+Version: 7.4-3
+Depends: libc, libncurses
+Section: utils
+Architecture: x86_64
+Installed-Size: 797317
+Filename: vim-full_7.4-3_x86_64.ipk
+Size: 797415
+SHA256sum: 2b157da82a39da0e38f1507adc5ac182ac31181b3f53ac361bad100f90f3c72d
+Description:  Vim is an almost compatible version of the UNIX editor Vi.
+ (Normal build)
+
+Package: wget
+Version: 1.18-2
+Depends: libc, libpcre, zlib, libopenssl, librt
+License: GPL-3.0+
+Section: net
+Architecture: x86_64
+Installed-Size: 214806
+Filename: wget_1.18-2_x86_64.ipk
+Size: 214885
+SHA256sum: c843877ce595e590f9d8b7a743f286b02680d8d03d0390d2ec461b257912f411
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built with SSL support.
+

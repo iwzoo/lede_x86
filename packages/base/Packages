@@ -1,0 +1,1088 @@
+Package: busybox
+Version: 1.25.1-4
+Depends: libc
+License: GPL-2.0
+Section: base
+Essential: yes
+Architecture: x86_64
+Installed-Size: 223174
+Filename: busybox_1.25.1-4_x86_64.ipk
+Size: 223395
+SHA256sum: 6ec42264ff1c8f02b5b8c206cdbb70dc56991b8a6a4d977cdccdb3d418730f06
+Description:  The Swiss Army Knife of embedded Linux.
+ It slices, it dices, it makes Julian Fries.
+
+Package: curl
+Version: 7.52.1-5
+Depends: libc, libcurl
+License: MIT
+Section: net
+Architecture: x86_64
+Installed-Size: 42039
+Filename: curl_7.52.1-5_x86_64.ipk
+Size: 42841
+SHA256sum: 54eea09749caa2ffc18f4064a06d3ed6886cbca36f865344113caf8d9092fb14
+Description:  A client-side URL transfer utility
+
+Package: dnsmasq-full
+Version: 2.78-1
+Depends: libc, libnettle, kmod-ipt-ipset, libnetfilter-conntrack
+License: GPL-2.0
+Section: net
+Architecture: x86_64
+Installed-Size: 158197
+Filename: dnsmasq-full_2.78-1_x86_64.ipk
+Size: 159011
+SHA256sum: bc95b28ed38d69f3bfc95297207d68a1535c3f50473280d251b94027e6fd7775
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+ 
+ This is a fully configurable variant with DHCPv6, DNSSEC, Authoritative DNS and
+ IPset, Conntrack support & NO_ID enabled by default.
+
+Package: dropbear
+Version: 2017.75-2
+Depends: libc
+License: MIT
+Section: net
+Architecture: x86_64
+Installed-Size: 94665
+Filename: dropbear_2017.75-2_x86_64.ipk
+Size: 95266
+SHA256sum: c61ca02bc6e858d04d53f117f5954982677d48c68dfcfda5af5271bd1b2b0bfc
+Description:  A small SSH2 server/client designed for small memory environments.
+
+Package: e2fsprogs
+Version: 1.43.3-2
+Depends: libc, libuuid, libext2fs
+Section: utils
+Architecture: x86_64
+Installed-Size: 204116
+Filename: e2fsprogs_1.43.3-2_x86_64.ipk
+Size: 204608
+SHA256sum: f9171cbab29cee9b452d8677bd752088a2401d0b2889b9d5f961fb3ef9d56f7c
+Description:  This package contains essential ext2 filesystem utilities which consists of
+ e2fsck, mke2fs and most of the other core ext2 filesystem utilities.
+
+Package: firewall
+Version: 2017-05-27-a4d98aea-1
+Depends: libc, libubox, libubus, libuci, libip4tc, libip6tc, libxtables, kmod-ipt-core, kmod-ipt-conntrack, kmod-ipt-nat
+License: ISC
+Section: net
+Architecture: x86_64
+Installed-Size: 46381
+Filename: firewall_2017-05-27-a4d98aea-1_x86_64.ipk
+Size: 47127
+SHA256sum: 417484b8b14710e07ab57eb142d2ddf308ba30ec5ba5bc33cfb5e035fc68ba78
+Description:  This package provides a config-compatible C implementation of the UCI firewall.
+
+Package: ip-full
+Version: 4.4.0-9
+Depends: libc, libnl-tiny
+Provides: ip
+License: GPL-2.0
+Section: net
+Architecture: x86_64
+Installed-Size: 137077
+Filename: ip-full_4.4.0-9_x86_64.ipk
+Size: 137875
+SHA256sum: e9e2aacc74f0c7eea14ef26f4fb931bdb83f7471bab3e54607046037613ef87b
+Description:  Routing control utility (Full)
+
+Package: ip-tiny
+Version: 4.4.0-9
+Depends: libc, libnl-tiny
+Conflicts: ip-full
+Provides: ip
+License: GPL-2.0
+Section: net
+Architecture: x86_64
+Installed-Size: 94421
+Filename: ip-tiny_4.4.0-9_x86_64.ipk
+Size: 95180
+SHA256sum: 8fe5bf50cd6f8458cd03060f126e959bfce4ef64ac80c497d3ea92db3c3a37ca
+Description:  Routing control utility (Minimal)
+
+Package: ip6tables
+Version: 1.4.21-2
+Depends: libc, kmod-ip6tables, iptables
+License: GPL-2.0
+Section: net
+Architecture: x86_64
+Installed-Size: 211
+Filename: ip6tables_1.4.21-2_x86_64.ipk
+Size: 910
+SHA256sum: 0337cf4adc78ee74cfa0d8d80706395c00ab6a64cfafb6ce785f53eecf0ff5bb
+Description:  IPv6 firewall administration tool
+
+Package: iperf3
+Version: 3.1.4-1
+Depends: libc
+License: BSD-3-Clause
+Section: net
+Architecture: x86_64
+Installed-Size: 41010
+Filename: iperf3_3.1.4-1_x86_64.ipk
+Size: 41761
+SHA256sum: 8135bb844ea71daf225c722ffa19148c81e7c2f9f8cdb7781cc9474e3dc6c8da
+Description:  Iperf is a modern alternative for measuring TCP and UDP bandwidth
+ performance, allowing the tuning of various parameters and
+ characteristics.
+
+Package: ipset
+Version: 6.30-1
+Depends: libc, kmod-ipt-ipset, libmnl
+License: GPL-2.0
+Section: net
+Architecture: x86_64
+Installed-Size: 81281
+Filename: ipset_6.30-1_x86_64.ipk
+Size: 81561
+SHA256sum: f6ff4c9caf648b7f4ef59f3bdaa6c70accbb989ac6ef39d21891ed698dccf2a7
+Description:  IPset administration utility
+
+Package: iptables-mod-conntrack-extra
+Version: 1.4.21-2
+Depends: libc, iptables, kmod-ipt-conntrack-extra
+License: GPL-2.0
+Section: net
+Architecture: x86_64
+Installed-Size: 9929
+Filename: iptables-mod-conntrack-extra_1.4.21-2_x86_64.ipk
+Size: 10676
+SHA256sum: 118013ca8eb8bf746ee195f0a3a9f2a17b7c577cfd714591d7752090ec843b35
+Description:  Extra iptables extensions for connection tracking.
+ 
+ Matches:
+ - connbytes
+ - connlimit
+ - connmark
+ - recent
+ - helper
+ 
+ Targets:
+ - CONNMARK
+ 
+
+Package: iptables-mod-ipopt
+Version: 1.4.21-2
+Depends: libc, iptables, kmod-ipt-ipopt
+License: GPL-2.0
+Section: net
+Architecture: x86_64
+Installed-Size: 13772
+Filename: iptables-mod-ipopt_1.4.21-2_x86_64.ipk
+Size: 14450
+SHA256sum: 98760ab583ec894762831e26f4aeb932ab00afffd146eb58b8bbeef9f214c84a
+Description:  iptables extensions for matching/changing IP packet options.
+ 
+ Matches:
+ - dscp
+ - ecn
+ - length
+ - statistic
+ - tcpmss
+ - unclean
+ - hl
+ 
+ Targets:
+ - DSCP
+ - CLASSIFY
+ - ECN
+ - HL
+ 
+
+Package: iptables-mod-tproxy
+Version: 1.4.21-2
+Depends: libc, iptables, kmod-ipt-tproxy
+License: GPL-2.0
+Section: net
+Architecture: x86_64
+Installed-Size: 3058
+Filename: iptables-mod-tproxy_1.4.21-2_x86_64.ipk
+Size: 3802
+SHA256sum: c81b0aa4f928d93bbd81fe6e47f4b2b5621528a71393145ec4a9a3d470ff5cc4
+Description:  Transparent proxy iptables extensions.
+ 
+ Matches:
+ - socket
+ 
+ Targets:
+ - TPROXY
+ 
+
+Package: iptables
+Version: 1.4.21-2
+Depends: libc, kmod-ipt-core, libip4tc, libip6tc, libxtables
+License: GPL-2.0
+Section: net
+Architecture: x86_64
+Installed-Size: 25790
+Filename: iptables_1.4.21-2_x86_64.ipk
+Size: 26500
+SHA256sum: 5af8698505ce812c3d382e0a9fc4a9cba4ede27b1764511b4ac8a2038e29b72b
+Description:  IP firewall administration tool.
+ 
+ Matches:
+ - icmp
+ - tcp
+ - udp
+ - comment
+ - conntrack
+ - limit
+ - mac
+ - mark
+ - multiport
+ - set
+ - state
+ - time
+ 
+ Targets:
+ - ACCEPT
+ - CT
+ - DNAT
+ - DROP
+ - REJECT
+ - LOG
+ - MARK
+ - MASQUERADE
+ - REDIRECT
+ - SET
+ - SNAT
+ - TCPMSS
+ 
+ Tables:
+ - filter
+ - mangle
+ - nat
+ - raw
+ 
+
+Package: jshn
+Version: 2017-02-24-96305a3c-1
+Depends: libc, libjson-c, libubox, libblobmsg-json
+License: ISC
+Section: utils
+Architecture: x86_64
+Installed-Size: 5915
+Filename: jshn_2017-02-24-96305a3c-1_x86_64.ipk
+Size: 6656
+SHA256sum: 3bff906db53cd06176a8a8d74436af9e4ae6e709c6e9b4165356b2239af44b13
+Description:  Library for parsing and generating JSON from shell scripts
+
+Package: jsonfilter
+Version: 2016-07-02-dea067ad-1
+Depends: libc, libubox, libjson-c
+License: ISC
+Section: base
+Architecture: x86_64
+Installed-Size: 9449
+Filename: jsonfilter_2016-07-02-dea067ad-1_x86_64.ipk
+Size: 10160
+SHA256sum: 43c63e02d32c677a709877719751d6c87be1651cbebbd6ad8beeb192d5a4313d
+Description:  OpenWrt JSON filter utility
+
+Package: lede-keyring
+Version: 2017-01-20-a50b7529-1
+Depends: libc
+License: GPL-2.0
+Section: base
+Architecture: x86_64
+Installed-Size: 868
+Filename: lede-keyring_2017-01-20-a50b7529-1_x86_64.ipk
+Size: 1642
+SHA256sum: 2d00fd4d9478f007004387278f832b70cfac06c0c7fca29302c48c8bc304d91d
+Description:  The keyring of with the developer using and gpg public keys.
+
+Package: libblkid
+Version: 2.29.2-1
+Depends: libc, libuuid
+License: GPL-2.0
+Section: libs
+Architecture: x86_64
+Installed-Size: 110232
+Filename: libblkid_2.29.2-1_x86_64.ipk
+Size: 111115
+SHA256sum: 9bfa2260769742872dd5935b53641a7936dcbada6bd007d280ff04da4763f824
+Description:  The libblkid library is used to identify block devices (disks) as to their
+ content (e.g. filesystem type, partitions) as well as extracting additional
+ information such as filesystem labels/volume names, partitions, unique
+ identifiers/serial numbers...
+
+Package: libblobmsg-json
+Version: 2017-02-24-96305a3c-1
+Depends: libc, libjson-c, libubox
+License: ISC
+Section: libs
+Architecture: x86_64
+Installed-Size: 3644
+Filename: libblobmsg-json_2017-02-24-96305a3c-1_x86_64.ipk
+Size: 4354
+SHA256sum: c6e5568c73d2f014d2fc968027259c096a30af6c86338b6bf6c29279c8bdb792
+Description:  blobmsg <-> json conversion library
+
+Package: libbz2
+Version: 1.0.6-2
+Depends: libc
+License: BZIP2
+Section: libs
+Architecture: x86_64
+Installed-Size: 23539
+Filename: libbz2_1.0.6-2_x86_64.ipk
+Size: 24345
+SHA256sum: 8af4fbc9d1bd48e9d043a03470aa5dc06ca091e71b6307b12e63f321b2adc5ff
+Description:  bzip2 is a freely available, patent free, high-quality
+ data compressor. This packages provides libbz2 library.
+
+Package: libcurl
+Version: 7.52.1-5
+Depends: libc, libmbedtls
+License: MIT
+Section: libs
+Architecture: x86_64
+Installed-Size: 111755
+Filename: libcurl_7.52.1-5_x86_64.ipk
+Size: 112553
+SHA256sum: f4f9126c1f99ffd27b6d35fb7200bea092440502a0797024ea613e1801e8f49e
+Description:  A client-side URL transfer library
+
+Package: libext2fs
+Version: 1.43.3-2
+Depends: libc, libuuid
+Section: libs
+Architecture: x86_64
+Installed-Size: 149660
+Filename: libext2fs_1.43.3-2_x86_64.ipk
+Size: 149975
+SHA256sum: 5ab955e4352c98d6f90b67c21f94b8cf8e45e42041ba773b9f83e29c81b11a79
+Description:  libext2fs is a library which can access ext2, ext3 and ext4 filesystems.
+
+Package: libf2fs
+Version: 1.8.0-3
+Depends: libc, libuuid
+License: GPLv2
+Section: libs
+Architecture: x86_64
+Installed-Size: 7284
+Filename: libf2fs_1.8.0-3_x86_64.ipk
+Size: 8031
+SHA256sum: 0a910d96ec03a2a6802d8b6cf4766b3e14c2643223981c9617dfcb0fc2514b74
+Description:  Library for Flash-Friendly File System (F2FS) tools
+
+Package: libgmp
+Version: 6.1.2-1
+Depends: libc
+License: GPL-2.0+
+Section: libs
+Architecture: x86_64
+Installed-Size: 206668
+Filename: libgmp_6.1.2-1_x86_64.ipk
+Size: 207344
+SHA256sum: fed07657f51d533d765451a5340b823a289f41a3023038f9d76c14eed5c89412
+Description:  GMP is a free library for arbitrary precision arithmetic, operating on
+ signed integers, rational numbers, and floating point numbers.
+
+Package: libip4tc
+Version: 1.4.21-2
+Depends: libc, libxtables
+License: GPL-2.0
+Section: libs
+Architecture: x86_64
+Installed-Size: 19110
+Filename: libip4tc_1.4.21-2_x86_64.ipk
+Size: 19821
+SHA256sum: 61d58077ca13d6f0619d08115bf83953692aecbebba195688ec480a6147c7055
+Description:  IPv4 firewall - shared libiptc library
+
+Package: libip6tc
+Version: 1.4.21-2
+Depends: libc, libxtables
+License: GPL-2.0
+Section: libs
+Architecture: x86_64
+Installed-Size: 18677
+Filename: libip6tc_1.4.21-2_x86_64.ipk
+Size: 19374
+SHA256sum: e40081924a7fd2f368aa2c660238610aac1ce07825bd16c5fb30970ad068fd67
+Description:  IPv6 firewall - shared libiptc library
+
+Package: libjson-c
+Version: 0.12.1-1
+Depends: libc
+License: MIT
+Section: libs
+Architecture: x86_64
+Installed-Size: 16006
+Filename: libjson-c_0.12.1-1_x86_64.ipk
+Size: 16736
+SHA256sum: b85c91092d41bf8ee8f12d55d070ebd09798c60ef803b4b67e40265c3c8d1d8d
+Description:  This package contains a library for javascript object notation backends.
+
+Package: libjson-script
+Version: 2017-02-24-96305a3c-1
+Depends: libc, libubox
+License: ISC
+Section: utils
+Architecture: x86_64
+Installed-Size: 5241
+Filename: libjson-script_2017-02-24-96305a3c-1_x86_64.ipk
+Size: 5957
+SHA256sum: 1c4848b005e470f43d90694dc2904f8df49b09de30ac91516b70c816355fd1f8
+Description:  Minimalistic JSON based scripting engine
+
+Package: libltdl
+Version: 2.4-2
+Depends: libc
+License: GPL-2.0+
+Section: libs
+Architecture: x86_64
+Installed-Size: 14738
+Filename: libltdl_2.4-2_x86_64.ipk
+Size: 15420
+SHA256sum: cf7e4111e114d367d90df44cdc1d8703f5d69f574c2b72e687130c1b03b065e1
+Description:  A generic dynamic object loading library
+
+Package: liblua
+Version: 5.1.5-1
+Depends: libc
+License: MIT
+Section: libs
+Architecture: x86_64
+Installed-Size: 73631
+Filename: liblua_5.1.5-1_x86_64.ipk
+Size: 74442
+SHA256sum: b69e247f002e77734347683f6b254a6c4ee1a2868f27bd6b6ef279028cb442f7
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua shared libraries, needed by other programs.
+
+Package: libmbedtls
+Version: 2.6.0-1
+Depends: libc
+License: GPL-2.0+
+Section: libs
+Architecture: x86_64
+Installed-Size: 165511
+Filename: libmbedtls_2.6.0-1_x86_64.ipk
+Size: 166036
+SHA256sum: 7b458db96baabe7fb2e6adaa526a45f8d562339d653098865418e094d42bfc55
+Description:  The aim of the mbedtls project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains the mbedtls library.
+
+Package: libmnl
+Version: 1.0.4-1
+Depends: libc
+License: LGPL-2.1+
+Section: libs
+Architecture: x86_64
+Installed-Size: 6402
+Filename: libmnl_1.0.4-1_x86_64.ipk
+Size: 7652
+SHA256sum: c7ce2e4f65afc5d6e2c8f8caa21e320fbe3f507df0a11f731e71fbe442be26ee
+Description:  libmnl is a minimalistic user-space library oriented to Netlink developers.
+ There are a lot of common tasks in parsing, validating, constructing of
+ both the Netlink header and TLVs that are repetitive and easy to get wrong.
+ This library aims to provide simple helpers that allows you to re-use code
+ and to avoid re-inventing the wheel. The main features of this library are:
+ .
+ * Small: the shared library requires around 30KB for an x86-based computer.
+ .
+ * Simple: this library avoids complexity and elaborated abstractions that
+ tend to hide Netlink details.
+ .
+ * Easy to use: the library simplifies the work for Netlink-wise developers.
+ It provides functions to make socket handling, message building, validating,
+ parsing and sequence tracking, easier.
+ .
+ * Easy to re-use: you can use the library to build your own abstraction layer
+ on top of this library.
+ .
+ * Decoupling: the interdependency of the main bricks that compose the library
+ is reduced, i.e. the library provides many helpers, but the programmer is not
+ forced to use them.
+
+Package: libncurses
+Version: 6.0-1
+Depends: libc, terminfo
+Provides: libncursesw
+License: MIT
+Section: libs
+Architecture: x86_64
+Installed-Size: 167025
+Filename: libncurses_6.0-1_x86_64.ipk
+Size: 166591
+SHA256sum: df4a48931d6d55c6be598b864df79d9c26150d5a94687f1ba298fff77f6ac152
+Description:  Terminal handling library (Unicode)
+
+Package: libnetfilter-conntrack
+Version: 1.0.6-1
+Depends: libc, libnfnetlink, kmod-nf-conntrack-netlink, libmnl
+License: GPL-2.0+
+Section: libs
+Architecture: x86_64
+Installed-Size: 41964
+Filename: libnetfilter-conntrack_1.0.6-1_x86_64.ipk
+Size: 42771
+SHA256sum: f30b8bdd7ba12a1ce4dac737f7113f9bad0ec46def106ee469812d1a91ba2090
+Description:  libnetfilter_conntrack is a userspace library providing a programming
+ interface (API) to the in-kernel connection tracking state table. The
+ library libnetfilter_conntrack has been previously known as
+ libnfnetlink_conntrack and libctnetlink. This library is currently
+ used by conntrack-tools among many other applications.
+
+Package: libnettle
+Version: 3.3-1
+Depends: libc, libgmp
+License: GPL-2.0+
+Section: libs
+Architecture: x86_64
+Installed-Size: 234293
+Filename: libnettle_3.3-1_x86_64.ipk
+Size: 234558
+SHA256sum: 3514a28c255f69eef49728e27b2f5cccb4043a9033c7d70fa1f0564177ea288a
+Description:  GNU crypto library
+
+Package: libnfnetlink
+Version: 1.0.1-1
+Depends: libc
+License: GPL-2.0+
+Section: libs
+Architecture: x86_64
+Installed-Size: 10235
+Filename: libnfnetlink_1.0.1-1_x86_64.ipk
+Size: 11100
+SHA256sum: 1315b88aa18ba69fc8370273a4abd646a34d08394177feabaa35760fcad3790d
+Description:  libnfnetlink is is the low-level library for netfilter related kernel/userspace communication.
+ It provides a generic messaging infrastructure for in-kernel netfilter subsystems
+ (such as nfnetlink_log, nfnetlink_queue, nfnetlink_conntrack) and their respective users
+ and/or management tools in userspace.
+
+Package: libnl-tiny
+Version: 0.1-5
+Depends: libc
+License: LGPL-2.1
+Section: libs
+Architecture: x86_64
+Installed-Size: 15186
+Filename: libnl-tiny_0.1-5_x86_64.ipk
+Size: 15851
+SHA256sum: 4141d88e88896beebcf6dd18e54841207f7bbb89de8d5267b418dfa50f958fdd
+Description:  This package contains a stripped down version of libnl
+
+Package: libopenssl
+Version: 1.0.2k-1
+Depends: libc
+License: OpenSSL
+Section: libs
+Architecture: x86_64
+Installed-Size: 993561
+Filename: libopenssl_1.0.2k-1_x86_64.ipk
+Size: 989093
+SHA256sum: 52728fc41c7afb1c52ab8eb8a5ed12a2813c4a9d646ece9ee069e2aa32b2c3b1
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the Secure
+ Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
+ as a full-strength general purpose cryptography library.
+ This package contains the OpenSSL shared libraries, needed by other programs.
+
+Package: libsmartcols
+Version: 2.29.2-1
+Depends: libc, librt
+License: GPL-2.0
+Section: libs
+Architecture: x86_64
+Installed-Size: 63279
+Filename: libsmartcols_2.29.2-1_x86_64.ipk
+Size: 64105
+SHA256sum: 08595da2c88b8b806ab2ece6da85fae93584f6b079e2ab21479cc50072167560
+Description:  The smartcols library is used to print tables and trees in a pretty way.
+
+Package: libubox
+Version: 2017-02-24-96305a3c-1
+Depends: libc
+License: ISC
+Section: libs
+Architecture: x86_64
+Installed-Size: 20864
+Filename: libubox_2017-02-24-96305a3c-1_x86_64.ipk
+Size: 21529
+SHA256sum: 8abf0af6d57079521595f65f273327f94fc1a3415a963f85e17098579c9521e4
+Description:  Basic utility library
+
+Package: libubus-lua
+Version: 2017-02-18-34c6e818-1
+Depends: libc, libubus, liblua
+License: LGPL-2.1
+Section: libs
+Architecture: x86_64
+Installed-Size: 6927
+Filename: libubus-lua_2017-02-18-34c6e818-1_x86_64.ipk
+Size: 7703
+SHA256sum: 5b32e173368be10fc8f7948cbc046ceaf0cc19bbf1162eb76c5d0da6d07f89b5
+Description:  Lua binding for the OpenWrt RPC client
+
+Package: libubus
+Version: 2017-02-18-34c6e818-1
+Depends: libc, libubox
+License: LGPL-2.1
+Section: libs
+Architecture: x86_64
+Installed-Size: 10553
+Filename: libubus_2017-02-18-34c6e818-1_x86_64.ipk
+Size: 11284
+SHA256sum: 0eb37633f88e30c4b693e75771f39de98c83169fbc3b9ad38f1ddb596115b655
+Description:  OpenWrt RPC client library
+
+Package: libuci-lua
+Version: 2016-07-04-e1bf4356-1
+Depends: libc, libuci, liblua
+License: LGPL-2.1
+Section: libs
+Architecture: x86_64
+Installed-Size: 6429
+Filename: libuci-lua_2016-07-04-e1bf4356-1_x86_64.ipk
+Size: 7166
+SHA256sum: 61e8f6748767eac2bfbd7cd029e8b005d1868892c0a8a8eeed753cf1c220ec6e
+Description:  Lua plugin for UCI
+
+Package: libuci
+Version: 2016-07-04-e1bf4356-1
+Depends: libc, libubox
+License: LGPL-2.1
+Section: libs
+Architecture: x86_64
+Installed-Size: 17093
+Filename: libuci_2016-07-04-e1bf4356-1_x86_64.ipk
+Size: 17889
+SHA256sum: 2225bf49decc995211c3c9c3e18aae6b206d2f79047557f6996ff325ad11628f
+Description:  C library for the Unified Configuration Interface (UCI)
+
+Package: libuclient
+Version: 2017-09-06-24d6eded-1
+Depends: libc, libubox
+License: ISC
+Section: libs
+Architecture: x86_64
+Installed-Size: 10262
+Filename: libuclient_2017-09-06-24d6eded-1_x86_64.ipk
+Size: 10982
+SHA256sum: 6e3cfd5fd24d4e318b529e54b50db10f30c40ba19274b320df19b0b9b26cbb97
+Description:  HTTP/1.1 client library
+
+Package: libustream-mbedtls
+Version: 2016-07-02-ec80adaa-2
+Depends: libc, libubox, libmbedtls
+License: ISC
+Section: libs
+Architecture: x86_64
+Installed-Size: 3916
+Filename: libustream-mbedtls_2016-07-02-ec80adaa-2_x86_64.ipk
+Size: 4648
+SHA256sum: 2b334f2c6ea776f8345b597a688883a2f0ea27dfe1d293bd48dd5c31b5b9cd5c
+Description:  ustream SSL Library (mbedtls)
+
+Package: libustream-openssl
+Version: 2016-07-02-ec80adaa-2
+Depends: libc, libubox, libopenssl
+License: ISC
+Section: libs
+Architecture: x86_64
+Installed-Size: 3902
+Filename: libustream-openssl_2016-07-02-ec80adaa-2_x86_64.ipk
+Size: 4618
+SHA256sum: 88315d127d00441464d13a4a16754d37d10097e70a6d9cb1cb6e93af0a0a75fb
+Description:  ustream SSL Library (openssl)
+
+Package: libuuid
+Version: 2.29.2-1
+Depends: libc, librt
+License: GPL-2.0
+Section: libs
+Architecture: x86_64
+Installed-Size: 5656
+Filename: libuuid_2.29.2-1_x86_64.ipk
+Size: 6572
+SHA256sum: 7683ccbcc3f9f325e78f00c565471e6ff01f0c369b4096c8d56cb27c8d636aca
+Description:  The UUID library is used to generate unique identifiers for objects
+ that may be accessible beyond the local system. This library
+ generates UUIDs compatible with those created by the Open Software
+ Foundation (OSF) Distributed Computing Environment (DCE) utility.
+
+Package: libxtables
+Version: 1.4.21-2
+Depends: libc
+License: GPL-2.0
+Section: libs
+Architecture: x86_64
+Installed-Size: 40379
+Filename: libxtables_1.4.21-2_x86_64.ipk
+Size: 41161
+SHA256sum: e0e73dec8b07319d5b59be2a367fdcc01138baf7970535b2b883a949403db0e2
+Description:  IPv4/IPv6 firewall - shared xtables library
+
+Package: logd
+Version: 2017-03-10-16f7e161-1
+Depends: libc, libubox, libubus, libblobmsg-json
+License: GPL-2.0
+Section: base
+Architecture: x86_64
+Installed-Size: 10608
+Filename: logd_2017-03-10-16f7e161-1_x86_64.ipk
+Size: 11240
+SHA256sum: 7099c6efe70da7c5886f39fd1590f7dd7f707acc90931459e3f294efa42ad03b
+Description:  OpenWrt system log implementation
+
+Package: lua
+Version: 5.1.5-1
+Depends: libc, liblua
+License: MIT
+Section: lang
+Architecture: x86_64
+Installed-Size: 4605
+Filename: lua_5.1.5-1_x86_64.ipk
+Size: 5442
+SHA256sum: 549e9e7b4068a805dd153c92f3e17d73715b93c1eb963cb601cb81fde18604e3
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua language interpreter.
+
+Package: mkf2fs
+Version: 1.8.0-3
+Depends: libc, libf2fs
+License: GPLv2
+Section: utils
+Architecture: x86_64
+Installed-Size: 9892
+Filename: mkf2fs_1.8.0-3_x86_64.ipk
+Size: 10624
+SHA256sum: e3bda9da8a79f0a466689620a6a2aa984e825cf962ad7dba829c68ef980d63f2
+Description:  Utility for creating a Flash-Friendly File System (F2FS)
+
+Package: mtd
+Version: 21
+Depends: libc, libubox
+License: GPL-2.0+
+Section: utils
+Architecture: x86_64
+Installed-Size: 12024
+Filename: mtd_21_x86_64.ipk
+Size: 12757
+SHA256sum: 494c9126c060c0b875a24beb37d745b728b5d19f62c56d41335755fb0edadf79
+Description:  This package contains an utility useful to upgrade from other firmware or 
+ older OpenWrt releases.
+
+Package: netifd
+Version: 2017-01-25-650758b1-1
+Depends: libc, libuci, libnl-tiny, libubus, ubus, ubusd, jshn, libubox
+License: GPL-2.0
+Section: base
+Architecture: x86_64
+Installed-Size: 75202
+Filename: netifd_2017-01-25-650758b1-1_x86_64.ipk
+Size: 75725
+SHA256sum: ac232fa425a0d447bdbb1d02af77738384b4abc4fe133b971d800a9e32acbf01
+Description:  OpenWrt Network Interface Configuration Daemon
+
+Package: odhcp6c
+Version: 2017-01-30-c13b6a05-2
+Depends: libc, libubox
+License: GPL-2.0
+Section: net
+Architecture: x86_64
+Installed-Size: 24467
+Filename: odhcp6c_2017-01-30-c13b6a05-2_x86_64.ipk
+Size: 25161
+SHA256sum: d857a99feb9d19462677b82a7b0fc7965c40dc75dfc674909c3fbd27d513b7d4
+Description:  Embedded DHCPv6-client for OpenWrt
+
+Package: odhcpd
+Version: 2017-10-02-c6f3d5d4-2
+Depends: libc, libubox, libuci, libubus, libnl-tiny
+License: GPL-2.0
+Section: net
+Architecture: x86_64
+Installed-Size: 35101
+Filename: odhcpd_2017-10-02-c6f3d5d4-2_x86_64.ipk
+Size: 35908
+SHA256sum: f09600b0d2db24c119a4d0d9efc219c81a23e987b54f2dacbecc3f3802db6007
+Description:  odhcpd is a daemon for serving and relaying IP management protocols to
+ configure clients and downstream routers. It tries to follow the RFC 6204
+ requirements for IPv6 home routers.
+ 
+ odhcpd provides server services for DHCP, RA, stateless and stateful DHCPv6,
+ prefix delegation and can be used to relay RA, DHCPv6 and NDP between routed
+ (non-bridged) interfaces in case no delegated prefixes are available.
+
+Package: openssl-util
+Version: 1.0.2k-1
+Depends: libc, libopenssl
+License: OpenSSL
+Section: utils
+Architecture: x86_64
+Installed-Size: 202318
+Filename: openssl-util_1.0.2k-1_x86_64.ipk
+Size: 201866
+SHA256sum: fb72dd6cfeb0c316ef3d13231be812192e9d500bdf82dbc850524b9e0931057d
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the Secure
+ Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
+ as a full-strength general purpose cryptography library.
+ This package contains the OpenSSL command-line utility.
+
+Package: partx-utils
+Version: 2.29.2-1
+Depends: libc, libblkid, libsmartcols
+License: GPL-2.0
+Section: utils
+Architecture: x86_64
+Installed-Size: 39758
+Filename: partx-utils_2.29.2-1_x86_64.ipk
+Size: 40555
+SHA256sum: 451b84058a034e3b188cc895d2178c0da59dd63c4a2830e89e672e29a076dbcf
+Description:  contains partx, addpart, delpart
+
+Package: ppp-mod-pppoe
+Version: 2.4.7-11
+Depends: libc, kmod-pppoe
+License: BSD-4-Clause
+Section: net
+Architecture: x86_64
+Installed-Size: 10150
+Filename: ppp-mod-pppoe_2.4.7-11_x86_64.ipk
+Size: 10914
+SHA256sum: dd3419e016e39ad05d6392ac713ef918111fad60e8335c1342d3e3f4f0ea0deb
+Description:  This package contains a PPPoE (PPP over Ethernet) plugin for ppp.
+
+Package: ppp
+Version: 2.4.7-11
+Depends: libc, kmod-ppp
+License: BSD-4-Clause
+Section: net
+Architecture: x86_64
+Installed-Size: 113528
+Filename: ppp_2.4.7-11_x86_64.ipk
+Size: 114187
+SHA256sum: 11f8323e810d365a62fefe38c1ec9515d8bf9126ab8ed896c4ee5074459a0873
+Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
+
+Package: px5g-mbedtls
+Version: 4
+Depends: libc, libmbedtls
+Provides: px5g
+License: LGPL-2.1
+Section: utils
+Architecture: x86_64
+Installed-Size: 4264
+Filename: px5g-mbedtls_4_x86_64.ipk
+Size: 5054
+SHA256sum: 530922526eb0aa9535e70a671b964fadc2cfe27db41d00590758f032edd4decf
+Description:  Px5g is a tiny standalone X.509 certificate generator.
+ It suitable to create key files and certificates in DER
+ and PEM format for use with stunnel, uhttpd and others.
+
+Package: qos-scripts
+Version: 1.3.0-1
+Depends: libc, tc, kmod-sched-core, kmod-sched-connmark, kmod-ifb, iptables, iptables-mod-ipopt, iptables-mod-conntrack-extra
+Section: utils
+Architecture: all
+Installed-Size: 6386
+Filename: qos-scripts_1.3.0-1_all.ipk
+Size: 7282
+SHA256sum: 691d64dbca1f32553da734178d8d34158fd3404467a59ce00b891f14b343a2cf
+Description:  A set of scripts that abstract QoS configuration into a simple 
+ configuration file supporting stanzas that specify any number of QoS 
+ entries.
+
+Package: r8169-firmware
+Version: 2016-09-21-42ad5367-1
+Depends: libc
+Section: firmware
+Architecture: x86_64
+Installed-Size: 16635
+Filename: r8169-firmware_2016-09-21-42ad5367-1_x86_64.ipk
+Size: 17274
+SHA256sum: dba84cf0559a8d6fb3fbd1797a96cbe52e06e4a62e221e313bc5af6e1173570f
+Description:  RealTek RTL8169 firmware
+
+Package: resolveip
+Version: 2
+Depends: libc
+License: GPL-2.0
+Section: utils
+Architecture: x86_64
+Installed-Size: 1749
+Filename: resolveip_2_x86_64.ipk
+Size: 2619
+SHA256sum: 94969fc1bad01410ce7929ec062cacd516d621efd2351c4f0ed7988d3facfa3c
+Description:  This package contains the small resolveip utility which
+ can be used by scripts to turn host names into numeric
+ IP addresses. It supports IPv4 and IPv6 resolving and
+ has a configurable timeout to guarantee a certain maximum
+ runtime in case of slow or defunct DNS servers.
+
+Package: rpcd
+Version: 2016-12-03-0577cfc1-1
+Depends: libc, libubus, libubox, libuci, libblobmsg-json
+License: ISC
+Section: utils
+Architecture: x86_64
+Installed-Size: 21061
+Filename: rpcd_2016-12-03-0577cfc1-1_x86_64.ipk
+Size: 21779
+SHA256sum: 1ff1a09777dee5b1e95919550fe0ac252128c62d5385667f5c978615ee83afc6
+Description:  This package provides the UBUS RPC backend server to expose various
+ functionality to frontend programs via JSON-RPC.
+
+Package: samba36-server
+Version: 3.6.25-6
+Depends: libc
+License: GPL-3.0
+Section: net
+Architecture: x86_64
+Installed-Size: 994589
+Filename: samba36-server_3.6.25-6_x86_64.ipk
+Size: 977630
+SHA256sum: 47aae404eeed66eafe113c15a33f22cac4eafe576d9352b3c8327387429861ee
+Description:  The Samba software suite is a collection of programs that implements the
+ SMB protocol for UNIX systems, allowing you to serve files and printers to
+ Windows, NT, OS/2 and DOS clients. This protocol is sometimes also referred
+ to as the LanManager or Netbios protocol.
+
+Package: tc
+Version: 4.4.0-9
+Depends: libc, kmod-sched-core
+License: GPL-2.0
+Section: net
+Architecture: x86_64
+Installed-Size: 113944
+Filename: tc_4.4.0-9_x86_64.ipk
+Size: 114770
+SHA256sum: 83128543c5920090e2677e8eba7d7c37ac775a42d471013d856c002637c0bf2e
+Description:  Traffic control utility
+
+Package: terminfo
+Version: 6.0-1
+Depends: libc
+License: MIT
+Section: libs
+Architecture: x86_64
+Installed-Size: 5883
+Filename: terminfo_6.0-1_x86_64.ipk
+Size: 6522
+SHA256sum: f61959f37a78f0b41c1dc892804df6eeb4142de94bbc4b0d15a9711ed9ca8e06
+Description:  Terminal Info Database (ncurses)
+
+Package: ubox
+Version: 2017-03-10-16f7e161-1
+Depends: libc, libubox, ubusd, ubus, libubus, libuci
+License: GPL-2.0
+Section: base
+Architecture: x86_64
+Installed-Size: 17126
+Filename: ubox_2017-03-10-16f7e161-1_x86_64.ipk
+Size: 17838
+SHA256sum: 6afb0eea5378bc0bcb1c5a3a3d46a1f3913fb41a86502cf71a1154fcbc2de2b5
+Description:  OpenWrt system helper toolbox
+
+Package: ubus
+Version: 2017-02-18-34c6e818-1
+Depends: libc, libubus, libblobmsg-json, ubusd
+License: LGPL-2.1
+Section: base
+Architecture: x86_64
+Installed-Size: 5808
+Filename: ubus_2017-02-18-34c6e818-1_x86_64.ipk
+Size: 6550
+SHA256sum: 12777bc84a844082c1acd280ac4e922c1586b3165464ee265d27621cd9eca3ec
+Description:  OpenWrt RPC client utility
+
+Package: ubusd
+Version: 2017-02-18-34c6e818-1
+Depends: libc, libubox, libblobmsg-json
+License: LGPL-2.1
+Section: base
+Architecture: x86_64
+Installed-Size: 12048
+Filename: ubusd_2017-02-18-34c6e818-1_x86_64.ipk
+Size: 12782
+SHA256sum: ee123119700027f1d4038dd49441cc22d5427fb65c494fbad903fb1a3850824c
+Description:  OpenWrt RPC daemon
+
+Package: uci
+Version: 2016-07-04-e1bf4356-1
+Depends: libc, libuci
+License: LGPL-2.1
+Section: base
+Architecture: x86_64
+Installed-Size: 7483
+Filename: uci_2016-07-04-e1bf4356-1_x86_64.ipk
+Size: 8248
+SHA256sum: b67882ca40fd04b5ccc7b9376fe4e8d32c852e59256cb8061d8796ab20173c3d
+Description:  Utility for the Unified Configuration Interface (UCI)
+
+Package: uclient-fetch
+Version: 2017-09-06-24d6eded-1
+Depends: libc, libuclient
+License: ISC
+Section: net
+Architecture: x86_64
+Installed-Size: 7255
+Filename: uclient-fetch_2017-09-06-24d6eded-1_x86_64.ipk
+Size: 8029
+SHA256sum: 3c5227659e0424fc8d7741c262480a3d385568d576744bef51512e7204de682e
+Description:  Tiny wget replacement using libuclient
+
+Package: uhttpd-mod-ubus
+Version: 2017-08-19-3fd58e9b-1
+Depends: libc, uhttpd, libubus, libblobmsg-json
+License: ISC
+Section: net
+Architecture: x86_64
+Installed-Size: 5949
+Filename: uhttpd-mod-ubus_2017-08-19-3fd58e9b-1_x86_64.ipk
+Size: 6758
+SHA256sum: d752d72b212798fead265f84a1284e25deb6e497ef593cc3952b4b928c4d9238
+Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
+ session.* namespace and procedures.
+
+Package: uhttpd
+Version: 2017-08-19-3fd58e9b-1
+Depends: libc, libubox, libblobmsg-json, libjson-script
+License: ISC
+Section: net
+Architecture: x86_64
+Installed-Size: 26331
+Filename: uhttpd_2017-08-19-3fd58e9b-1_x86_64.ipk
+Size: 27017
+SHA256sum: 1abb8a99a11ec41ce1eb558b8416ac2103eeed1b6fc6b6b1eb66cd08af0db9be
+Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
+ support. It is intended as a drop-in replacement for the Busybox
+ HTTP daemon.
+
+Package: usign
+Version: 2015-07-04-ef641914-1
+Depends: libc, libubox
+License: ISC
+Section: base
+Architecture: x86_64
+Installed-Size: 11377
+Filename: usign_2015-07-04-ef641914-1_x86_64.ipk
+Size: 12113
+SHA256sum: 7278f024333cbff45b4652affc32f0d57971bf714c68c6ec26e040330e43a540
+Description:  OpenWrt signature verification utility
+
+Package: zlib
+Version: 1.2.11-1
+Depends: libc
+License: Zlib
+Section: libs
+Architecture: x86_64
+Installed-Size: 40848
+Filename: zlib_1.2.11-1_x86_64.ipk
+Size: 41596
+SHA256sum: 7fa8d95525b33f9a3647825dc8776bcc612a00b6c642c3d81896c2d3b3de3454
+Description:  zlib is a lossless data-compression library.
+ This package includes the shared library.
+
