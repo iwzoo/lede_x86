@@ -1,3 +1,14 @@
+Package: ChinaDNS
+Version: 1.3.2
+Depends: libc
+Section: net
+Architecture: x86_64
+Installed-Size: 28645
+Filename: ChinaDNS_1.3.2_x86_64.ipk
+Size: 28912
+SHA256sum: 7f888faad3962f0695111b7e9db61985acac26dc99f6f1485c42529536f1a5da
+Description:  A DNS forwarder that ignores incorrect(you knew it) responses.
+
 Package: busybox
 Version: 1.25.1-4
 Depends: libc
