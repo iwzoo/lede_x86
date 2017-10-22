@@ -50,6 +50,18 @@ Size: 11479
 SHA256sum: 8cab86fac0bab5bd978c230f6b5fff0328a73b378b1b928f8e0a9dffd0ef5bdc
 Description:  Firewall and Portforwarding application
 
+Package: luci-app-openvpn
+Version: git-17.294.22464-0ed8086-1
+Depends: libc
+Source: feeds/luci/applications/luci-app-openvpn
+Section: luci
+Architecture: all
+Installed-Size: 8864
+Filename: luci-app-openvpn_git-17.294.22464-0ed8086-1_all.ipk
+Size: 9577
+SHA256sum: fb546089f5e7f876db8d5688df9ae7008152348fdfd83e92f47a9f99cafd25a0
+Description:  LuCI Support for OpenVPN
+
 Package: luci-app-qos
 Version: git-17.294.22464-0ed8086-1
 Depends: libc, qos-scripts
@@ -109,6 +121,18 @@ Filename: luci-app-tinyproxy_git-17.294.22464-0ed8086-1_all.ipk
 Size: 3881
 SHA256sum: a2916a71aa732ba3635c920030ca56e4acf518ddd9a1d34356b78f3b1d2e2844
 Description:  Tinyproxy - HTTP(S)-Proxy configuration
+
+Package: luci-app-transmission
+Version: git-17.294.22464-0ed8086-1
+Depends: libc
+Source: feeds/luci/applications/luci-app-transmission
+Section: luci
+Architecture: all
+Installed-Size: 3384
+Filename: luci-app-transmission_git-17.294.22464-0ed8086-1_all.ipk
+Size: 4131
+SHA256sum: 200ae49845749ccd3ee153e817e83ca374a793f83e3c9ee2f00de0a03e1e724a
+Description:  LuCI Support for Transmission
 
 Package: luci-app-wol
 Version: git-17.294.22464-0ed8086-1
